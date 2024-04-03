@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html,body {
+            height: 100vh;
+            width: 100vw;
+            background-color: black;
+        }
+
+        body {
+             background-image: url('imagens/-global-data-gratis-vetor.jpg');
+             background-repeat: no-repeat;
+             background-position: center center;
+             background-size: cover;
+             background-attachment: fixed;
+        }
+
+        h1{
+           background-image: linear-gradient(to right,black,transparent);
+            color: white;
+        }
+
+        main {
+            position:relative;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 90vh;
+           
+            background-image: url('imagens/hulk_png.png');
+            background-position: right center;
+            background-repeat: no-repeat;
+             background-size: cover;
+             background-attachment: fixed;
+             width: 400px;
+        }
+
+        section#telefone {
+            position:absolute;
+            top: 60%;
+            left: 57%;
+            transform: translate(-50%, -50%);
+            height: 50%;
+            width: 50%;
+            background-image: url('imagens/frame-iphone.png');
+            background-position: top center;
+            background-repeat: no-repeat;
+             background-size: cover;
+             background-attachment: fixed;
+             height: 500px;
+        }
+
+        iframe#capa {
+            position: relative;
+            top: 64px;
+            left: 0,5px;
+            width: 200px;
+            height: 377px;
+        }
+
+        section#redes {
+            text-align: right;
+            margin-top: -550px;
+           
+        }
+
+        section#redes img {
+            margin: 20px;
+            width: 50px;
+            border-radius: 50%;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.705);
+            box-sizing: border-box;
+        }
+
+        section#redes img:hover {
+            border: 2px solid rgba(255, 255, 255, 0.397);
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425) ;
+            transition: transform .5s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Claudio Rodrigues-Coder</h1>
+    <main>
+        <section id="telefone">
+            <iframe src="capa.html" name="tela" id="capa" frameborder="0">
+                Seu navegador não é compativel com isso.
+            </iframe>
+
+        </section>
+    </main>
+        <section id="redes">
+                <a href="capa.html" target="tela"> <img src="imagens/logo-home.jpg" alt="home"></a> <br>
+                <a href="face.html" target="tela"> <img src="imagens/logo-facebook.jpg" alt="facebook"></a> <br>
+                <a href="insta.html" target="tela"> <img src="imagens/logo-instagram.jpg" alt="instagram"></a> <br>
+                <a href="github.html" target="tela"> <img src="imagens/gitub.jpg" alt="github"></a> <br>
+                <a href="youtube.html" target="tela"> <img src="imagens/logo-youtube.jpg" alt=""></a> <br>
+        </section>
+</body>
+</html>
